@@ -104,5 +104,6 @@ margin-top: 24px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:24px;
 
 }
