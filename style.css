@@ -24,6 +24,8 @@ header{
     flex-direction: column;
    
     background-repeat: no-repeat;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.185);
+
 }
 
 .menu-top{
@@ -40,7 +42,7 @@ header{
     color: var(--black);
     text-decoration: none;
     background-color: var(--white);
-   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.329);
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.185);
    border-radius: 32px;
    text-align: center;
 
@@ -114,8 +116,13 @@ margin-top: 24px;
 }
 .text-table-1 h2{
     font-size: 18px;
+    color: var(--black);
+    font-weight: 700;
 }
 .text-table-1 p{
     font-size: 12px;
     margin-top: 14px;
+    color: var(--color-p);
+    font-weight: 400;
+    line-height: 1.6;
 }
