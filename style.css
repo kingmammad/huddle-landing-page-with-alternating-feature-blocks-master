@@ -82,9 +82,10 @@ margin-top: 24px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.836);
 }
 .build p{
-    font-size:14px ;
+    font-size:12px ;
     font-weight: 400;
     color:  var(--color-p);
+    line-height: 18px;
     
 }
 .table-1{
