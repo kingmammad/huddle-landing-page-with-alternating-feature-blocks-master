@@ -160,3 +160,15 @@ footer{
     background-color: rgb(53, 31, 31);
     height: 320px;
 }
+.contact{
+   padding-top: 45px;
+
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin: 12px;
+    width: 360px;
+}
