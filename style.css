@@ -42,7 +42,7 @@ header{
     color: var(--black);
     text-decoration: none;
     background-color: var(--white);
-   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.185);
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.089);
    border-radius: 32px;
    text-align: center;
 
@@ -215,4 +215,29 @@ ol{
 }
 .middle-contact a:hover{
     text-decoration:underline;
+}
+.end-contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: var(--white);
+    gap: 24px;
+    margin-top: 40px;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+   margin-top: 90px;
+    
+    gap: 20px;
+}
+.copy p{
+    margin-top: 85px;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 400;
+    
+}
+.bi:hover{
+    fill: var(--pink);
 }
